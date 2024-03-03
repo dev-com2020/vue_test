@@ -1,11 +1,11 @@
 <script setup lang="ts">
-
+import AppHeaderVue from './components/AppHeader.vue';
+import TodoListVue from './components/TodoList.vue';
 </script>
 
 <template>
-  <main>
-
-  </main>
+<AppHeaderVue/>
+<TodoListVue/>
 </template>
 
 <style scoped>
