@@ -3,7 +3,6 @@ import ListItemVue from './ListItem.vue'
 import { computed, onMounted, ref } from 'vue'
 import type { Ref } from 'vue'
 
-
 type Item = {
     title: string;
     checked?: boolean;
